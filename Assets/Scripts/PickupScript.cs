@@ -22,7 +22,7 @@ public class PickupScript : MonoBehaviour {
         if (other.tag == "Player")
         {
             FindObjectOfType<AudioScript>().PlayAudioClip(Pickups);
-            other.GetComponent<PlayerController>().score++;
+            PlayerController.score++;
             this.gameObject.SetActive(false);
         }
     }

@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 6a05a7fc915e15c43b393d321f63d719
-timeCreated: 1509138741
+timeCreated: 1510363183
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: BarrelPickup
+    21300002: TorchObstacle
+    21300004: SceneDoor
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -84,7 +86,35 @@ TextureImporter:
         width: 14
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TorchObstacle
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 7
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SceneDoor
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 32
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

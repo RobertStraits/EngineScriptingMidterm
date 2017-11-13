@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     bool flying = false;
     bool isDying = false;
     public Vector3 respawnPosition;
-    public int score;
+    public static int score;
     [SerializeField]
     AudioClip Death;
     [SerializeField]
